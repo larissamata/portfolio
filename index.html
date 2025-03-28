@@ -1,138 +1,152 @@
-            <!DOCTYPE html>
-            <html lang="pt-br">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <meta name="description" content="Projeto Portfólio">
-                    <meta name="author" content="Generation Brasil">
-                    <meta name="keywords" content="HTML, CSS, JavaScript">
-                    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-                    <title>Meu Perfil</title>
-                </head>
-                <body>
-                    <!-- Cabeçalho da Página (header) -->
-                    <header>
+                <!DOCTYPE html>
+                <html lang="pt-br">
+                    <head>
+                        <meta charset="UTF-8">
 
-                        <!-- Div Conteudo do Cabeçalho -->
-                        <div id="header_content">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta name="description" content="Projeto Portfólio">
+                        <meta name="author" content="Generation Brasil">
+                        <meta name="keywords" content="HTML, CSS, JavaScript">
 
-                            <!-- Titulo do Cabeçalho -->
-                            <div id="titulo">
+                        <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+                        <!-- Link para a Folha de Estilo da Página - CSS -->
+                        <link rel="stylesheet" href="./assets/css/style.css">
+
+
+                        <title>Meu Perfil</title>
+                    </head>
+                    <body>
+                        <!-- Cabeçalho da Página (header) -->
+                        <header>
+
+                            <!-- Div Conteudo do Cabeçalho -->
+                            <div id="header_content" class="flex">
+
+                                <!-- Titulo do Cabeçalho -->
+                                <div id="titulo">
+
+                                
+
+                                <!--Seu nome-->
+                                <h1>Generation Brasil</h1>
+                                </div>
+
+                                <!-- Conteudo do Menu da Página (header) -->
+                                <div id="menu">
+
+                                    <!--Menu da página-->
+                                    <nav>
+
+                                        <!--Marcadores não ordenados + links-->
+                                        <ul id="menu">
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="contato.html">Contato</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+
+                                </div>
+                            </div>
+                        </header>
+
+                        <!-- Seção Principal da Página (main) -->
+                        <main>
+                            <!--Seção sobre você-->
+                            <section id="about" class="flex_start">
+
+                                <!--Título da seção-->
+                                <h2>Sobre a Generation</h2>
+
+                                <!--Contéudo da seção-->
+                                <div id="conteudo" class="flex">
+
+                                    <!--Imagem do criador do contéudo-->
+                                    <img
+                                        src="./assets/img/user_02.svg"
+                                        alt="Foto do criador desse conteúdo"
+                                        
+                                        class="img_profile"
+                                        />
+
+                                        <!--Texto sobre o criador do conteúdo-->
+                                        <article id="sobre_texto">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Voluptatem odio possimus, dolorem earum atque
+                                        itaque quas soluta placeat iure omnis porro cum
+                                        debitis sequi libero! Deleniti vitae quis hic
+                                        cumque. Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Eius inventore ullam, quia
+                                        deserunt enim cumque hic officia repudiandae ad ab
+                                        et sapiente qui vitae accusamus adipisci provident
+                                        sit assumenda laboriosam!
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Voluptatem odio possimus, dolorem earum atque
+                                        itaque quas soluta placeat iure omnis porro cum
+                                        debitis sequi libero! Deleniti vitae quis hic
+                                        cumque. Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Eius inventore ullam, quia
+                                        deserunt enim cumque hic officia repudiandae ad ab
+                                        et sapiente qui vitae accusamus adipisci provident
+                                        sit assumenda laboriosam!
+
+                                            </p>
+                                        </article>
+                                </div>
+
+                            </section>
+
+                            <!--Seção contendo um vídeo de sua preferência-->
+                            <section id="video" class="flex_start">
+
+                                <!--Título da seção-->
+                                <h2>Meu vídeo favorito</h2>
+
+                                <!--Vídeo da seção-->
+                                <div id="youtube" class="flex">
+
+                                    <iframe 
+                                    width="560" 
+                                    height="315" 
+                                    src="https://www.youtube.com/embed/R7lew2YYESU?si=cZWSmfz0LshcLpvk" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" 
+                                    allowfullscreen></iframe>
+                                </div>
+
+                            </section>
+
+                        </main>
+
+                        <!-- Rodapé da Página (footer) -->
+                        <footer class="flex">
+
+                            <!--Seção de contato - redes sociais-->
+                            <section id="redes_sociais">
+
+                                <a href=" ">
+                                    <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                                </a>
+                                <a href="">
+                                    <img src="assets/img/github.svg" alt="GitHub" />
+                                </a>
+                                <a href="">
+                                    <img src="assets/img/instagram.svg" alt="Instagram" />
+                                </a>
+                                    </section>
+
+                                    <h3>Feito com ❤ por Larissa Mata - 2025</h3>
 
                             
 
-                            <!--Seu nome-->
-                            <h1>Generation Brasil</h1>
-                            </div>
-
-                            <!-- Conteudo do Menu da Página (header) -->
-                            <div id="menu">
-
-                                <!--Menu da página-->
-                                <nav>
-
-                                    <!--Marcadores não ordenados + links-->
-                                    <ul id="menu">
-                                        <li>
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li>
-                                            <a href="contato.html">Contato</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-
-                            </div>
-                        </div>
-                    </header>
-
-                    <!-- Seção Principal da Página (main) -->
-                    <main>
-                        <!--Seção sobre você-->
-                        <section id="about">
-
-                            <!--Título da seção-->
-                            <h2>Sobre a Generation</h2>
-
-                            <!--Contéudo da seção-->
-                            <div id="conteudo">
-
-                                <!--Imagem do criador do contéudo-->
-                                <img
-                                    src="./assets/img/user_02.svg"
-                                    alt="Foto do criador desse conteúdo"
-                                    />
-
-                                    <!--Texto sobre o criador do conteúdo-->
-                                    <article id="sobre_texto">
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Voluptatem odio possimus, dolorem earum atque
-                                    itaque quas soluta placeat iure omnis porro cum
-                                    debitis sequi libero! Deleniti vitae quis hic
-                                    cumque. Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Eius inventore ullam, quia
-                                    deserunt enim cumque hic officia repudiandae ad ab
-                                    et sapiente qui vitae accusamus adipisci provident
-                                    sit assumenda laboriosam!
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Voluptatem odio possimus, dolorem earum atque
-                                    itaque quas soluta placeat iure omnis porro cum
-                                    debitis sequi libero! Deleniti vitae quis hic
-                                    cumque. Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Eius inventore ullam, quia
-                                    deserunt enim cumque hic officia repudiandae ad ab
-                                    et sapiente qui vitae accusamus adipisci provident
-                                    sit assumenda laboriosam!
-
-                                        </p>
-                                    </article>
-                            </div>
-
-                        </section>
-
-                        <!--Seção contendo um vídeo de sua preferência-->
-                        <section id="video">
-
-                            <!--Vídeo da seção-->
-                            <div id="youtube">
-                                <iframe width="560" 
-                                height="315" 
-                                src="https://www.youtube.com/embed/R7lew2YYESU?si=cZWSmfz0LshcLpvk" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                referrerpolicy="strict-origin-when-cross-origin" 
-                                allowfullscreen></iframe>
-                            </div>
-
-                        </section>
-
-                    </main>
-
-                    <!-- Rodapé da Página (footer) -->
-                    <footer>
-
-                        <!--Seção de contato - redes sociais-->
-                        <section id="redes_sociais">
-
-                            <a href=" ">
-                                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                            </a>
-                            <a href="">
-                                <img src="assets/img/github.svg" alt="GitHub" />
-                            </a>
-                            <a href="">
-                                <img src="assets/img/instagram.svg" alt="Instagram" />
-                            </a>
-                                </section>
-
-                                <h3>Feito com ❤ por Larissa Mata - 2025</h3>
-
-                        
-
-                    </footer>
-                </body>
-            </html>
+                        </footer>
+                    </body>
+                </html>
